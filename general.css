@@ -251,6 +251,8 @@ tr:nth-child(even){
 .griditem:hover{
     transform: scale(1.25,1.25);
     translate: 0px -25px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.7s;
 }
 .gridicons{
     display: inline-block;
