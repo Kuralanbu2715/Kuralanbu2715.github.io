@@ -340,10 +340,10 @@ footer{
 .footlink:visited{
     color: rgb(82, 80, 80);
 }
-footlink:active{
+.footlink:active{
     color: white;
 }
-footlink:hover{
+.footlink:hover{
     color: white;
 }
 
