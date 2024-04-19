@@ -76,6 +76,8 @@ body{
 }
 .Homepage {
     background-image: url("Pictures used/home-bg1.png");
+    background-color: rgba(189, 189, 189, 0.735);
+    background-blend-mode:darken;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
