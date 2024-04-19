@@ -60,4 +60,31 @@ window.addEventListener('scroll', () =>{
     }
 });
 
+//dark theme
+const toggle = document.getElementById('toggle-dark');
+const about =document.querySelector('.Aboutme');
+const edu =document.querySelector('.Edu');
+const skills =document.querySelector('.Skills');
+const contact =document.querySelector('.contact');
+
+
+
+toggle.addEventListener('click', function(){
+    this.classList.toggle('bi-moon-fill');
+    if(this.classList.toggle('bi-brightness-high-fill')){
+        about.style.backgroundColor = 'rgb(246, 255, 196)';
+        edu.style.backgroundColor = 'rgb(196, 238, 255)';
+        skills.style.backgroundColor = 'rgb(246, 255, 196)';
+        contact.style.backgroundColor = 'white';
+    }
+    else{
+        
+        about.style.backgroundColor = 'rgb(166, 179, 91)';
+        edu.style.backgroundColor = 'rgb(73, 124, 144)';
+        skills.style.backgroundColor = 'rgb(166, 179, 91)';
+        contact.style.backgroundColor = 'black';
+        
+    }
+});
+
 

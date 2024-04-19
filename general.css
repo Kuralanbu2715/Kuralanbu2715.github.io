@@ -264,6 +264,10 @@ tr:nth-child(even){
     margin-left: 50px;
     margin-top: 5px;
 }
+
+.contact{
+    background-color: white;
+}
 form {
     max-width: 700px;
     margin: 0 auto;
@@ -387,3 +391,11 @@ footer{
     opacity: 1;
     pointer-events: auto;
 }
+
+i{
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
