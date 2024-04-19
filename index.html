@@ -49,6 +49,7 @@
     <P id="sline">I'm Kuralanbu</P>
     <p id="tline">I'm a Software Analyst</p>
    </div>
+   
    <hr>
    <div class="Aboutme" id="About_nav">
     <p class="sectfline"><strong>About me</strong></p>
@@ -78,6 +79,7 @@
     <iframe style="margin-bottom: 25px;" width="660" height="490" src="https://www.youtube.com/embed/r29CFLctWIY?si=cBkY2xUvZF7mx9cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    </div>
    </div>
+   <a href="#home_nav" class="to_top"><img src="Pictures used/up-arrow.png" alt="to top button" height="50px" width="50px"></a>
    <hr>
    <div class="Edu" id="Edu_nav">
     <p class="Edufline"><strong>Education</strong></p>
@@ -155,18 +157,21 @@
    </div>
    <hr>
    <div class="contact" id="contact_nav">
-    <form action="#" method="post">
+    <form id="form" action="#" method="post">
         <h2>Contact Me</h2>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name">
+        <div class="error"></div>
   
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="text" id="email" name="email" placeholder="example@domain.com">
+        <div class="error"></div>
   
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <textarea name="message" id="message" rows="4"></textarea>
+        <div class="error"></div>
   
-        <button type="submit" class="send">Send Message</button>
+        <button type="submit" class="send" >Send Message</button>
       </form>
    </div>
    <footer>
@@ -189,6 +194,6 @@
     </div>
     <div class="endline">||&#8921; Designed by T.A.Kuralanbu &#8920;||</div>
    </footer>
-   <script></script>
+   <script defer src="script.js"></script>
    </body>
 </html>
