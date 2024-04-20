@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    
 </head>
 <body>
    <div class="bar">
@@ -26,9 +27,9 @@
         <a href="#Skill_nav" class="nav_link"><div id="nav_opt">SKILLS</div></a>
         <a href="#contact_nav" class="nav_link"><div id="nav_opt">CONTACT</div></a>
         <i class="bi bi-brightness-high-fill" id="toggle-dark"></i>
-        
+        <div id="google_translate_element"></div>
         </div>
-       
+        
         <div class="logo">
             <svg width="100" height="50" xmlns="http://www.w3.org/2000/svg">
                 <!-- Left arrowhead -->
@@ -40,11 +41,8 @@
                 <!-- Right arrowhead -->
                 <polygon points="100,25 85,0 85,50" fill="none" stroke="black" stroke-width="2" />
               </svg>
-              
-       
-          
-          
-    </div>
+        </div>
+        
    </div>
    
    <div class="Homepage" id="home_nav">
@@ -199,5 +197,14 @@
     <div class="endline">||&#8921; Designed by T.A.Kuralanbu &#8920;||</div>
    </footer>
    <script defer src="script.js"></script>
+   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+    function googleTranslateElementInit(){
+        new google.translate.TranslateElement(
+            {pageLanguage :'en'},
+            'google_translate_element'
+    );
+    }
+   </script>
    </body>
 </html>
